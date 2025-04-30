@@ -56,17 +56,17 @@ searchButton.onclick = search;
 const bookmarks = [
   {
     id: "nipUdekbDVOjqkbU",
-    label: "ZJU",
+    label: "Study",
     bookmarks: [
+      {
+        id: "bGtq8dJJxd7nMv8w",
+        label: "Mail",
+        url: "https://mail.zju.edu.cn/",
+      },
       {
         id: "4Xd8TEGoKqVqaVcz",
         label: "Course",
-        url: "https://course.zju.edu.cn/en-us/",
-      },
-      {
-        id: "bGtq8dJJxd7nMv8w",
-        label: "ZJU Mail",
-        url: "https://mail.zju.edu.cn/",
+        url: "https://course.zju.edu.cn/",
       },
       {
         id: "2W2q0XhPFF0B7neR",
@@ -94,17 +94,17 @@ const bookmarks = [
     bookmarks: [
       {
         id: "Ey8iyDKe4mEVNT2Y",
-        label: "Poe Sage",
-        url: "https://poe.com/Sage",
+        label: "Scholar-Inbox",
+        url: "https://www.scholar-inbox.com",
       },
       {
         id: "21nzPZrHn072Zpub",
-        label: "Quick Reference",
-        url: "https://wangchujiang.com/reference/",
+        label: "AI News",
+        url: "https://buttondown.com/ainews/archive/",
       },
       {
         id: "TQzx9NK4DYGvLr5f",
-        label: "arXiv",
+        label: "ArXiv",
         url: "https://arxiv.org/list/cs.CV/recent",
       },
     ],
