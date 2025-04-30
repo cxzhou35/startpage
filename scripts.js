@@ -40,6 +40,10 @@ const getTargetUrl = (value) => {
   return engineUrls[engine] + value;
 };
 
+const generateId = () => {
+  return Math.random().toString(36).substr(2, 16); // Generates a random 16-character string
+};
+
 const search = () => {
   const value = searchInput.value;
   const targetUrl = getTargetUrl(value);
@@ -59,17 +63,17 @@ const bookmarks = [
     label: "Study",
     bookmarks: [
       {
-        id: "bGtq8dJJxd7nMv8w",
+        id: "bGtq8dJJxd7nMv8e",
         label: "Mail",
         url: "https://mail.zju.edu.cn/",
       },
       {
-        id: "4Xd8TEGoKqVqaVcz",
+        id: "4Xd8TEGoKqVqaVcf",
         label: "Course",
         url: "https://course.zju.edu.cn/",
       },
       {
-        id: "2W2q0XhPFF0B7neR",
+        id: "2W2q0XhPFF0B7naR",
         label: "NexusHD",
         url: "http://www.nexushd.org/index.php",
       },
@@ -79,31 +83,31 @@ const bookmarks = [
     id: "82awzrnbQuxcFYiN",
     label: "Daily",
     bookmarks: [
-      { id: "Uqeq9BmKti7b6Gom", label: "GitHub", url: "https://github.com/" },
-      { id: "mhqhmXXEfcmsnkqi", label: "YouTube", url: "https://youtube.com/" },
+      { id: "Uqeq9BmKti7b6Gon", label: "GitHub", url: "https://github.com/" },
+      { id: "mhqhmXXEfcmsnkqs", label: "YouTube", url: "https://youtube.com/" },
       {
-        id: "vxRX8LWISVlRyqKa",
+        id: "vxRX8LWISVlRyqKo",
         label: "Bilibili",
         url: "https://www.bilibili.com/",
       },
     ],
   },
   {
-    id: "4QckM1Lqt58o1REk",
+    id: "4QckM1Lqt58o1REj",
     label: "Research",
     bookmarks: [
       {
-        id: "Ey8iyDKe4mEVNT2Y",
+        id: "Ey8iyDKe4mEVNT1Y",
         label: "Scholar-Inbox",
         url: "https://www.scholar-inbox.com",
       },
       {
-        id: "21nzPZrHn072Zpub",
+        id: "21nzPZrHn072Zpuo",
         label: "AI News",
         url: "https://buttondown.com/ainews/archive/",
       },
       {
-        id: "TQzx9NK4DYGvLr5f",
+        id: "TQzx9NK4DYGvLr5n",
         label: "ArXiv",
         url: "https://arxiv.org/list/cs.CV/recent",
       },
